@@ -81,7 +81,7 @@ function App() {
       >{inputSceneValue}</div>
       <Spline
         style={{ minHeight: '100vh' }}
-        scene="src/assets/scene.splinecode"
+        scene="scene.splinecode"
         onLoad={handleLoad}
         onSplineMouseDown={handleClick}
       />
